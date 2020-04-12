@@ -1,7 +1,7 @@
 # Site settings
 title: Prabhu Cheedalla
 description: 'Business Card Page'
-url: 'https://bac2binary.github.io'
+url: 'https://explorer9.github.io/'
 baseurl: '/wiz/'
 profilepic: '/images/prabhu.jpg'
 bkimage: '/images/bk1.jpg'
@@ -9,12 +9,12 @@ google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
-  name: 'Sreeharsha Bandi'
-  email: bandi5398@gmail.com
-  twitter_username: 0xHarsha
+  name: 'Prabhu chaitanya cheedalla'
+  email: cheedallaprabhu@gmail.com
+  twitter_username: 
 #  facebook_username: joshgerdes
-  github_username:  bac2binary
-  linkedin_username:  bandi-sreeharsha
+  github_username:  explorer9
+  linkedin_username:  prabhu cheedalla
   #meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
