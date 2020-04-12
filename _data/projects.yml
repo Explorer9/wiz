@@ -1,26 +1,23 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Binary Deobfuscation
-  gh_user: bac2binary
-  repo: binarydeob
-  img: https://user-images.githubusercontent.com/32843441/62822286-71724400-bb81-11e9-9c0b-59fe58dd39a8.png
-  desc: A fork of the Debug-Container Project from Daniel Meixner. It is based on NodeJS and provides some calls for debugging and for calling other containers. I extended the project with Error-Codes, Sleep-Time, Header-Copy, SSH Server, ...
-
-- name: Open Source Threat Intelligence platform
-  gh_user: bac2binary
-  repo: OSTI
-  img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
-  desc: A threat intelligence platform for gathering, sharing, storing and correlating Indicators of Compromise of targeted attacks, threat intelligence, financial fraud information, vulnerability information or even counter-terrorism information.
-
-- name: Human Detection Robot
-  gh_user: bac2binary
-  repo: hdr
-  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  desc: The robot designed in this project is used to detect the humans, who struct under the buildings during earthquakes.
-
-- name: Automatic License verification and Convict detection.
-  gh_user: bac2binary
-  repo: alvcd
-  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
-  desc: This project provides authentication using Face Recognition based on Oxford face API’s. Open and close commands of the gate are connected to face authentication and toll payment.
+- name: POSE ESTIMATION USING R-CNN
+  gh_user: explorer9
+  repo: 
+  img: https://github.com/Explorer9/wiz/blob/gh-pages/images/x.png
+  desc: Designed a system capable of identifying Pose of a Human in an image using Convolutional Neural Networks and by a trained model a trained opensource model Open pose. Used in Gait analysis, medical field to treat persons with disability of walking
+- name: Diabetes admission rate prediction
+  gh_user: explorer9
+  repo: 
+  img: https://github.com/Explorer9/wiz/blob/gh-pages/images/y.jpg
+  desc: Implemented a system by analyzing Patient hospitalization dataset from 130 US hospitals which is capable enough to predict the Diabetes patients Readmission rate.
+- name: Forest cover type prediction
+  gh_user: explorer9
+  repo: forest-cover-type-prediction
+  img: https://github.com/Explorer9/wiz/blob/gh-pages/images/z.jpg
+  desc: Designed a system, which analysis the Land topography and cartographic characteristics to predict the Type of forest cover suitable for the land. This model requires an analytics edge to develop and used by Timber industries, Governments, Environmental Organizations
+- name: Twitter sentiment Analysis (Hadoop, Hive, Sqoop, Textual Analysis)
+  gh_user: explorer9
+  repo: 
+  img: https://github.com/Explorer9/wiz/blob/gh-pages/images/a.png
+  desc: Performed analysis of Twitter data which involves Extraction and cleaning of json data using SERDE, using Sqoop to load the data and Hive to analyze it in the process Extracted several NLP features by parts of speech tagging and thereby found the sentiment of the tweet.
