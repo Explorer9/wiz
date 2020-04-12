@@ -1,9 +1,9 @@
 # Site settings
-title: Sreeharsha Bandi
+title: Prabhu Chaitanya Cheedalla
 description: 'Business Card Page'
 url: 'https://bac2binary.github.io'
 baseurl: '/wiz/'
-profilepic: '/images/harsha.png'
+profilepic: '/images/prabhu.png'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
