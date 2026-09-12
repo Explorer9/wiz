@@ -1,12 +1,12 @@
 # Site settings
-title: Prabhu Cheedalla
-description: 
+title: Prabhu Cheedalla | Data Scientist & GenAI Builder
+description: Data scientist building retrieval systems, responsible GenAI, and applied NLP products.
 url: 'https://explorer9.github.io/'
 baseurl: '/wiz'
 profilepic: '/images/prabhu.jpg'
 bkimage: '/images/bk1.jpg'
-google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+google_analytics:
+font_awesome:
 
 author:
   name: 'Prabhu chaitanya cheedalla'

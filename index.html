@@ -1,40 +1,46 @@
 ---
 layout: default
-robots: noindex
----
+layout: default
+title: Prabhu Cheedalla | Data Scientist & GenAI Builder
 
 <!--<div class="main-post-list">-->
+<section class="hero" id="about">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="status-dot"></span> Data scientist · NLP · GenAI</p>
+    <h1>I build AI systems that make complex information <em>usable.</em></h1>
+    <p class="hero-intro">I'm Prabhu Cheedalla, a data scientist at Regions Bank working across retrieval, language, and product. I turn messy knowledge into answers people can trust.</p>
+    <div class="hero-actions">
+      <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+      <a class="text-link" href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <div class="hero-aside">
+    <div class="portrait-frame">
+      <img src="{{ site.baseurl }}/images/prabhu.jpg" alt="Portrait of Prabhu Cheedalla">
+      <span class="portrait-label">McKinney, TX<br>Always curious</span>
+    </div>
+    <div class="hero-note">Currently exploring<br><strong>how humans and AI<br>work better together.</strong></div>
+  </div>
+</section>
 
-  <ul class="timeline">
-    
-    {% for project in site.data.projects %}
+<section class="signal-bar" aria-label="Focus areas">
+  <span>What I work on</span>
+  <div class="signal-list"><span>Retrieval systems</span><i>✳</i><span>Responsible GenAI</span><i>✳</i><span>Conversational analytics</span><i>✳</i><span>Applied NLP</span></div>
+</section>
 
-      <li class="timeline-inverted">
-        <div class="timeline-image">
-          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
-          </div>
-          <div class="timeline-body">
-            {{ project.desc | markdownify }}
-            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
-              <div style="height: 10px;"></div>
-          </div>
-        </div>
-      </li>
-    {% endfor %}
-    <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
-      </div>
-    </li> -->
-  </ul>
+<section class="work-section" id="work">
+  <div class="section-heading"><p class="eyebrow">01 / Selected work</p><h2>From raw data<br>to real decisions.</h2><p>Projects that sit at the intersection of language, systems, and human judgment.</p></div>
+  <div class="project-grid">
+    <article class="project-card project-featured"><div class="project-top"><span class="project-index">01</span><span class="project-kind">Enterprise AI · Current</span></div><h3>GenAI search &amp; Q&amp;A</h3><p>Designed an AWS-powered retrieval experience that helps contact center associates find servicing procedures and troubleshooting steps in real time.</p><div class="tag-row"><span>AWS Kendra</span><span>Bedrock</span><span>RAG</span><span>Compliance</span></div><div class="project-arrow" aria-hidden="true">↗</div></article>
+    <article class="project-card project-warm"><div class="project-top"><span class="project-index">02</span><span class="project-kind">NLP · Analytics</span></div><h3>Voice of Customer</h3><p>Built an end-to-end platform combining speech and text signals to surface customer pain points and spot emerging trends.</p><div class="tag-row"><span>BERT</span><span>NER</span><span>Semantic search</span></div><div class="project-arrow" aria-hidden="true">↗</div></article>
+    <article class="project-card project-blue"><div class="project-top"><span class="project-index">03</span><span class="project-kind">Research · Computer vision</span></div><h3>GaitVision</h3><p>Real-time extraction of gait parameters using a residual attention network, with applications in gait analysis and accessibility.</p><div class="tag-row"><span>Deep learning</span><span>Vision</span><span>Publication</span></div><a class="card-link" href="https://github.com/Explorer9" target="_blank" rel="noopener">View research <span aria-hidden="true">↗</span></a></article>
+    <article class="project-card project-light"><div class="project-top"><span class="project-index">04</span><span class="project-kind">Personal lab</span></div><h3>Focus Launcher</h3><p>An Android space for intentional attention: focus sessions, friction, reading, schedules, and a little room to play.</p><div class="tag-row"><span>Android</span><span>Kotlin</span><span>Product thinking</span></div><a class="card-link" href="https://github.com/Explorer9/focus-launcher" target="_blank" rel="noopener">Open project <span aria-hidden="true">↗</span></a></article>
+  </div>
+</section>
 
-<!--</div>-->
+<section class="about-section"><div class="section-heading"><p class="eyebrow">02 / The through-line</p><h2>Curiosity, with<br>production manners.</h2></div><div class="about-copy"><p class="large-copy">I like the part of AI work where the demo ends and the questions get interesting: Can people find the right answer? Can we explain why it appeared? Can the system stay accurate when the stakes are high?</p><p>Over five years across banking, conversational analytics, and machine learning, I have worked from ingestion and transformation through retrieval tuning, prompt design, evaluation, and deployment.</p><div class="about-links"><a href="https://www.linkedin.com/in/prabhu-cheedalla-000b45ba" target="_blank" rel="noopener">LinkedIn <span>↗</span></a><a href="https://github.com/Explorer9" target="_blank" rel="noopener">GitHub <span>↗</span></a><a href="https://eyesofexperience.wordpress.com/" target="_blank" rel="noopener">Writing <span>↗</span></a></div></div></section>
+
+<section class="experience-section"><div class="section-heading"><p class="eyebrow">03 / Experience</p><h2>A timeline of<br>useful questions.</h2></div><div class="experience-list"><div class="experience-item"><span>2022 — now</span><div><h3>Data Scientist <small>Regions Bank</small></h3><p>GenAI search, RAG, disclosure controls, knowledge pipelines, and Voice of Customer.</p></div></div><div class="experience-item"><span>2021 — 2022</span><div><h3>Developer <small>Tata Consultancy Services · Citi Bank</small></h3><p>Conversational analytics and intent improvement for a customer-facing chatbot.</p></div></div><div class="experience-item"><span>2019 — 2021</span><div><h3>MS, Data Science <small>University of North Texas</small></h3><p>Built the foundation across statistics, machine learning, NLP, and applied research.</p></div></div></div></section>
+
+<section class="closing-section"><p class="eyebrow">Have a hard problem?</p><h2>Let's make the<br>next useful thing.</h2><a class="button button-dark" href="mailto:{{ site.author.email }}">Start a conversation <span aria-hidden="true">↗</span></a></section>
 
